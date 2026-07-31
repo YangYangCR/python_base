@@ -1,0 +1,14 @@
+.gitignore
+  h_ba2f2ef8a92d53 1-220
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c8ee66c9a5f0511bcfcceb40b3660ef93c8a89fa",
+  "prompts": {},
+  "humans": {
+    "h_ba2f2ef8a92d53": {
+      "author": "yangyang <yangy129@chinatelecom.cn>"
+    }
+  }
+}
