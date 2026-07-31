@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "be8ac1e57b254ba22bcef25bad6d39fb24ff2652",
+  "prompts": {},
+  "humans": {
+    "h_ba2f2ef8a92d53": {
+      "author": "yangyang <yangy129@chinatelecom.cn>"
+    }
+  }
+}
