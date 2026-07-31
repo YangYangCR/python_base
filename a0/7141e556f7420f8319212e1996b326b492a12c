@@ -1,0 +1,14 @@
+magic_method/2_represent/representation_demo.py
+  h_ba2f2ef8a92d53 1-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a07141e556f7420f8319212e1996b326b492a12c",
+  "prompts": {},
+  "humans": {
+    "h_ba2f2ef8a92d53": {
+      "author": "yangyang <yangy129@chinatelecom.cn>"
+    }
+  }
+}
