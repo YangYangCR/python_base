@@ -47,27 +47,29 @@ class Singleton:
 
 
 
+def test_life_cycle():
+    # === 测试 ===
+    print("=" * 70)
+    print("1. 类生命周期管理测试")
+    print("=" * 70)
 
+    print("\n--- __new__ 和 __init__ 测试 ---")
+    obj = LifecycleDemo("lifecycle_object")
+    print(f"创建的对象: {obj}")
 
-
-# === 测试 ===
-print("=" * 70)
-print("1. 类生命周期管理测试")
-print("=" * 70)
-
-print("\n--- __new__ 和 __init__ 测试 ---")
-obj = LifecycleDemo("lifecycle_object")
-print(f"创建的对象: {obj}")
-
-print("\n--- __del__ 测试 ---")
-del obj
-print("对象已删除\n")
+    print("\n--- __del__ 测试 ---")
+    del obj
+    print("对象已删除\n")
 
 print("===================================================================")
 
-# 测试
-s1 = Singleton("第一次")
-s2 = Singleton("第二次")
-print(f"s1 is s2: {s1 is s2}")  # True
-print(f"s1.name: {s1.name}")  # 第二次（因为第二次初始化覆盖了）
-print(f"s2.name: {s2.name}")  # 第二次
+def test_singleton():
+    # 测试
+    s1 = Singleton("第一次")
+    s2 = Singleton("第二次")
+    print(f"s1 is s2: {s1 is s2}")  # True
+    print(f"s1.name: {s1.name}")  # 第二次（因为第二次初始化覆盖了）
+    print(f"s2.name: {s2.name}")  # 第二次
+
+test_life_cycle()
+test_singleton()
